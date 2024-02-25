@@ -1,0 +1,92 @@
+---
+title: "Komputasi Aljabar Linier dan Matrik"
+format: revealjs
+editor: visual
+---
+
+## Diskripsi Kuliah
+
+Kuliah ini membahas tentang :
+
+-   teori matriks dan aljabar linier, dan
+
+-   mengkaji beberapa implementasi dalam disiplin ilmu lain terutama untuk sain data.
+
+Aljabar linier adalah salah satu cabang matematika yang mempelajari sistem persamaan linier dan sifat-sifat matriks. Konsep aljabar linier sangat berguna dalam fisika, ilmu ekonomi dan sosial, ilmu alam, dan teknik.
+
+## Pentingnya Aljabar Linier dan Matrik
+
+Karena penerapannya yang luas, maka aljabar linier adalah salah satu mata kuliah yang sangat perlu untuk dipelajari lebih mendalam. Untuk materi lengkapnya silahkan diakses di <https://moelaab.github.io/alin>.
+
+## Ketentuan Kuliah
+
+Supaya kuliah berjalan dengan tertib
+
+-   Masuk jam 7.00 (Jika terlambat dilarang masuk)
+
+-   Membawa Laptop
+
+-   Membuat repositori kuliah di github dengan github/namauser/alin
+
+    -   Contoh -- http//github/andi/alin
+
+    dengan repositori alin ada dua cabang : main dan master
+
+## Koding materi
+
+Latihan dan tugas dilakukan dengan koding python jupyter notebook dalam file extension ipynb:
+
+Latihan dan tugas dibuat dan digenerate dalam jupyter book dan file ipynb di simpan di repositori github cabang ***main*** dan hasil generate (html) disimpan di cabang ***master*** sebagai gh-pages
+
+## Materi Kuliah
+
+| Pertemuan1 | Materi          | Diskripsi                                                                                                       |
+|------------|-----------------|-----------------------------------------------------------------------------------------------------------------|
+| 1          | Pengantar       | Pengantar Aljabar linier dan Matrik                                                                             |
+| 2          | Sistem Linier   | Membahas bentuk dan macam penyelesaian sistem linier                                                            |
+| 3          | Eliminasi Gauss | Menukar sistem yang ada dengan sistem lain yang memiliki penyelesaian yang sama, namun lebih mudah diselesaikan |
+
+## Materi Kuliah
+
+| Pertemuan | Materi                | Diskripsi                                                                                  |
+|-----------|-----------------------|--------------------------------------------------------------------------------------------|
+| 4         | Aljabar Matrik        | Pengantar Aljabar linier dan Matrik                                                        |
+| 5         | Invers Matrik         | matriks invers dan menjelaskan metode yang umum digunakan untuk membentuk matrik tersebut. |
+| 6         | Faktorisasi matrik LU | kita membahas faktorisasi suatu matriks.                                                   |
+
+## Materi Kuliah
+
+| Pertemuan | Materi           | Diskripsi                                                                                                                                                   |
+|-----------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 7         | Kombinasi linier | Pengantar Aljabar linier dan Matrik                                                                                                                         |
+| 8         | UTS              |                                                                                                                                                             |
+| 9         | Ruang vektor     | Membahas beberapa konsep yang berkaitan dengan gagasan ruang vektor. Tujuan utama bab ini adalah untuk menghubungkan konsep-konsep ini dengan sistem linier |
+
+## Materi Kuliah
+
+| Pertemuan | Materi                     | Diskripsi                                                                              |
+|-----------|----------------------------|----------------------------------------------------------------------------------------|
+| 10        | Kebebasan linier dan Basis | Membahas kebebasan linier dan kumpulan vektor-vektor bebas linier yang merentang ruang |
+| 11        | Inner product              | memperkenalkan gagasan tentang hasil kali dalam, memeriksa struktur pada ruang vektor  |
+| 12        | Eigenvalues                | Mempelajari nilai eigen, dan vektor eigen, yang dan pengaruh matriks terkait           |
+
+## Materi Kuliah
+
+| Pertemuan | Materi                      | Diskripsi |
+|-----------|-----------------------------|-----------|
+| 13        | Implementasi Aljabar linier |           |
+| 14        | Implementasi Aljabar Linier |           |
+| 15        | Implementasi Aljabar LInier |           |
+
+## 
+
+``` python
+!git config --global user.email "namaemail@gmail.com"
+!git config --global user.name "usernamegithub"
+```
+
+``` python
+!git remote set-url origin https://token@github.com/usernameanda/alin.git
+
+!git init
+```
